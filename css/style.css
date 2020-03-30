@@ -48,9 +48,10 @@ html, body {
 
 .info {
     margin-top: 100px;
-    margin-right: 80px;
     margin-left: 100px;
+    margin-right: 100px;
 }
+
 
 .info p {
     font-size: 40px;
@@ -78,15 +79,17 @@ html, body {
 
 ul {
     display: flex;
+    margin: 0 auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 80px;
     list-style-type: none;
+    max-width: 300px;
 }
 
 
 li {
-   margin-left: 80px;
+   /*margin-right: 80px;*/
    font-size: 15px;
 }
 
@@ -117,7 +120,7 @@ li {
 }
 
 .photo:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -318,6 +321,10 @@ h1.age {
         /*margin-left: 20px;
         margin-right: 20px;*/
     }
+
+    /*.info-projects {
+        margin-top: -130px;
+    }*/
 
     .info p {
         font-size: 20px;
