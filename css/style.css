@@ -271,6 +271,10 @@ h1.age {
         width: 100%;
     }
 
+    .app-projects {
+        height: 220%;
+    }
+
     .intro {
         height: 100%;
         width: 100%;
