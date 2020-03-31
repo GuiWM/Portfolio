@@ -272,7 +272,7 @@ h1.age {
     }
 
     .app-projects {
-        height: 220%;
+        height: 210%;
     }
 
     .intro {
@@ -292,6 +292,10 @@ h1.age {
         width: 100%;
         font-family: apple-medium;
         height: 100%;
+    }
+
+    .experiences-projects {
+        height: 110%;
     }
 
     .logos {
