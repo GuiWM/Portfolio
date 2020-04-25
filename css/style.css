@@ -105,7 +105,7 @@ li {
 }
 
 .me:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -138,7 +138,7 @@ body ul li.grow {
 }
 
 body ul li.grow:hover {
-   transform: scale(1.5);
+   transform: scale(1.2);
 }
 
 h1.age {
@@ -175,7 +175,7 @@ h1.age {
 }*/
 
 .fab:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
  }
 
  .project-images {
