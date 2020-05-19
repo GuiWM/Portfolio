@@ -127,12 +127,23 @@ li .menu-item{
     border-radius: 10px;
     transition: all .5s ease-in-out;
     margin-right: 20px;
-    
     border: 3px solid black;
+}
 
+.cell {
+    height: 200px;
+    border: none;
+    transition: all .5s ease-in-out;
+    margin-right: 35px;
+    border-radius: 10px;
 }
 
 .photo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cell:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -226,7 +237,11 @@ h1.age {
     max-width: 700px;
     border-radius: 20px;
   }
-  
+
+  .ios {
+    max-width: 250px;
+  }
+
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption {
     margin: auto;
@@ -390,6 +405,11 @@ h1.age {
         visibility: hidden;
     }
     .photo {
+        display: block;
+        margin: 10px auto 0;
+    }
+
+    .cell {
         display: block;
         margin: 10px auto 0;
     }
