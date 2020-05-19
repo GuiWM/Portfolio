@@ -77,7 +77,7 @@ html, body {
     font-size: 25px;
 }
 
-ul {
+.menu{
     display: flex;
     margin: 0 auto;
     flex-direction: row;
@@ -88,9 +88,22 @@ ul {
 }
 
 
-li {
+li .menu-item{
    /*margin-right: 80px;*/
    font-size: 15px;
+}
+
+.menu-platform-container {
+    max-width: 100px;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.line-container {
+    border-left: 1px solid #be30d1;
 }
 
 .me {
@@ -138,7 +151,7 @@ body ul li.grow {
 }
 
 body ul li.grow:hover {
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 
 h1.age {
@@ -179,10 +192,12 @@ h1.age {
  }
 
  .project-images {
-    width: 100%;
+    max-width: 800px;
     display: flex;
     flex-direction: row;
     margin-top: 40px;
+    overflow: scroll;
+    padding: 11px 50px;
  }
 
 
@@ -285,17 +300,17 @@ h1.age {
     }
 
     .experiences {
+        width: 100%;
         background-image: none;
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: 100%;
-        width: 100%;
         font-family: apple-medium;
         height: 100%;
     }
 
     .experiences-projects {
-        height: 110%;
+        height: 100vh;
     }
 
     .logos {
@@ -309,7 +324,7 @@ h1.age {
         margin-top: 50px;
     }
 
-    ul {
+    .menu {
         display: flex;
         justify-content: center;
         margin-top: 20px;
@@ -317,7 +332,7 @@ h1.age {
     }
     
     
-    li {
+    .menu-item {
        margin-left: 20px;
        font-size: 12px;
     }
@@ -379,7 +394,13 @@ h1.age {
         margin: 10px auto 0;
     }
     
-    
+    .menu-platform-container {
+       margin: 0 auto;
+       max-width: 100px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-size: 13px;
+    }
 
   }
 
